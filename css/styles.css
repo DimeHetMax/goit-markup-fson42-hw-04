@@ -136,6 +136,8 @@ img {
 /* hero */
 .section-hero {
   background: var(--background-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/title-image.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -259,6 +261,16 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+/*  Постоянные клиенты  */
+.section-costumers {
+  padding: 94px 0;
+}
+.section-costumers__title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* portfolio cards */
 .section-portfolio {
   padding: 94px 0px;
@@ -332,6 +344,14 @@ img {
   background: var(--background-color);
   padding: 60px 0px;
 }
+.site-footer__container {
+  display: flex;
+  align-items: center;
+}
+.site-footer__wrapper {
+  display: inline;
+  margin-right: 70px;
+}
 .site-footer__text {
   color: white;
 }
@@ -341,6 +361,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 10px;
+  width: 231px;
 }
 .site-footer__link--color {
   color: var(--secondary-text-color);
@@ -357,4 +378,15 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-media {
+  display: inline;
+}
+.footer-media__text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
