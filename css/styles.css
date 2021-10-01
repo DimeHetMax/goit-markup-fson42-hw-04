@@ -320,7 +320,6 @@ img {
 .social-media__link:focus .social-media__svg {
   fill: var(--secondary-text-color);
 }
-
 /*  Постоянные клиенты  */
 .section-costumers {
   padding: 94px 0;
@@ -348,7 +347,6 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
 .section-costumers__svg {
   fill: var(--social-media-fill);
 }
@@ -428,7 +426,6 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-
 .section-portfolio__text {
   font-size: 16px;
   line-height: 1.87;
